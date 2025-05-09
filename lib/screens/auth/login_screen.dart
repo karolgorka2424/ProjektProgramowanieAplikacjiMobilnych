@@ -164,8 +164,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       color: Colors.grey.shade200,
                       borderRadius: BorderRadius.circular(12),
                     ),
-                    child: Column(
-                      children: const [
+                    child: const Column(
+                      children: [
                         Text(
                           'Demo Credentials',
                           style: TextStyle(

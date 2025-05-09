@@ -44,14 +44,12 @@ ThemeData getLightTheme() {
   return ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
-    colorScheme: ColorScheme.light(
+    colorScheme: const ColorScheme.light(
       primary: AppColors.primaryLight,
       onPrimary: Colors.white,
       secondary: AppColors.accentLight,
       onSecondary: Colors.white,
       error: AppColors.error,
-      background: AppColors.backgroundLight,
-      onBackground: AppColors.textDarkLight,
       surface: AppColors.cardLight,
       onSurface: AppColors.textDarkLight,
     ),
@@ -114,14 +112,12 @@ ThemeData getDarkTheme() {
   return ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    colorScheme: ColorScheme.dark(
+    colorScheme: const ColorScheme.dark(
       primary: AppColors.primaryDark,
       onPrimary: Colors.white,
       secondary: AppColors.accentDark,
       onSecondary: Colors.white,
       error: AppColors.error,
-      background: AppColors.backgroundDark,
-      onBackground: AppColors.textDarkDark,
       surface: AppColors.cardDark,
       onSurface: AppColors.textDarkDark,
     ),
